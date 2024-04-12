@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container .img {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 20px;
+    flex-direction: column; 
+}
