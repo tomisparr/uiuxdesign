@@ -1,10 +1,14 @@
+
 *{
     margin: 0;
     padding: 0;
 }
+
 .container{
     display: flex;
+    
 }
+
 .container .img {
     width: 50%;
     height: 100vh;
@@ -22,5 +26,131 @@
     align-items: center;
     padding-left: 20px;
     margin-top: 20px;
-    flex-direction: column; 
+    flex-direction: column;
+
 }
+
+.back > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back{
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.profile  {
+    margin-top: 20%;
+    display: flex;
+    font-size : x-large; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200    ;
+    
+
+}
+
+.text{
+
+    display: flex;
+    color: rgb(200, 212, 183);
+    width: 70%;
+    margin: 10px;
+  
+}
+
+.moreinfo{
+    color:  rgb(165, 175, 150);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tet{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: small;             
+}
+
+.number{
+    width: 400px;
+    border-radius: 5px;
+    height: 7vh;
+}
+
+.address{
+    width: 400px;
+    border-radius: 5px;
+    height: 7vh;
+    padding-right: 220px;
+    color:  rgb(165, 175, 150);
+}
+.add{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: small;
+}
+
+.country{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: small; 
+}
+
+.resi{
+    width: 400px;
+    border-radius: 5px;
+    height: 7vh;
+    color:  rgb(165, 175, 150);
+}
+
+.cont{
+    margin-top: 40px;
+
+}
+
+.save{
+    background-color: rgb(49, 49, 241);
+    width: 400px;
+    border-radius: 5px;
+    height: 7vh;
+    border: 0cap;
+    color: rgb(250, 250, 252);
+
+}
+
+.componet{
+    padding-left: 100px;
+}
+
+.safety{
+    margin-top: 20px;
+    padding-left: 100px
+}
+
+.safety > a{
+    text-decoration: none;
+
+}
+
+.number > a{
+  
+    border-width: 0 3px 3px 0;
+    padding-right: 250px;
+}
+
+.resi > a {
+    border-width: 0 3px 3px 0;
+    padding-left: 250px;
+}
+
+
