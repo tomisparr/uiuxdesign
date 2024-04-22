@@ -30,7 +30,7 @@
 
 }
 
-.back > a {
+/* .back > a {
     text-decoration: none;
     font-weight: bold;
 }
@@ -42,12 +42,25 @@
     flex-direction: column;
 }
 
-.info{
+*/
+
+header {
+    position: fixed;
+    width: 30%;
+    top: 0;
     display: flex;
-    align-self: flex-end;
     justify-content: space-between;
-    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+    
 }
+
+header .info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 
 .profile  {
     margin-top: 20%;
@@ -60,22 +73,24 @@
 }
 
 .text{
-
+    bottom: 5%;
     display: flex;
-    color: rgb(200, 212, 183);
+    color: lightgrey;
     width: 70%;
     margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
   
 }
 
-.moreinfo{
+/* .moreinfo{
     color:  rgb(165, 175, 150);
     display: flex;
     flex-direction: column;
     
-}
+} */
 
-.tet{
+/* .tet{
     margin-top: 7px;
     margin-bottom: 7px;
     font-size: small;             
@@ -111,6 +126,7 @@
     border-radius: 5px;
     height: 7vh;
     color:  rgb(165, 175, 150);
+    
 }
 
 .cont{
@@ -126,23 +142,29 @@
     border: 0cap;
     color: rgb(250, 250, 252);
 
-}
+} */
 
 .componet{
-    padding-left: 100px;
+    padding-left: 150px;
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
 }
 
 .safety{
-    margin-top: 20px;
-    padding-left: 100px
+    margin-top: 20px;   
+    color: rgb(200, 212, 183);
+    font-size: 11px; text-align: center; 
 }
 
 .safety > a{
     text-decoration: none;
+    
+  
 
 }
 
-.number > a{
+/* .number > a{
   
     border-width: 0 3px 3px 0;
     padding-right: 250px;
@@ -151,6 +173,63 @@
 .resi > a {
     border-width: 0 3px 3px 0;
     padding-left: 250px;
+} */
+
+select{
+    width: 400px;
+    padding: 1.2em;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;  
 }
 
+select option {
+    color: lightgrey;
+}
+
+
+.input-details{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2em;
+
+}
+
+.input-details input {
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 1.2em;
+    border-radius: 5px;  
+}
+.input-details input:hover{
+    border-color:   rgb(21, 21, 243);
+}
+
+.input-details input::placeholder{
+    color: lightgrey;
+}
+
+.input-details input:focus {
+    color: blue;
+}
+
+.sav{
+    background-color: rgb(49, 49, 241);
+    width: 400px;
+    border-radius: 5px;
+    height: 6vh;
+    border: 0cap;
+    color: rgb(250, 250, 252);
+    margin-top: 5%;
+    margin-bottom: 3px;
+}
+
+.safety >p{
+   display: flex;
+   justify-content:center ;
+   padding-left: 7px;
+
+}
 
