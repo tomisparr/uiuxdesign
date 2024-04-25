@@ -57,7 +57,55 @@
 }
 
 .typetet{
-    width: 300px;
+    width: 250px;
     color: lightgrey;
     padding-top: 10px;
+    font-size: 14px;
 }
+.indi{
+    display: flex;
+    padding-left: 100px;
+    flex-direction: row ;
+    width: 300px;
+    height: 7vh;
+    margin-left: 100px;
+    border-radius: 4px;
+    
+}
+
+.indi:hover{
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color: rgb(238, 238, 245);
+}
+    
+
+.indi > a{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    padding-left: 30px;
+    
+}
+
+.link{
+    margin-top: 15px;
+    margin-left: 25px; 
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+.personal{
+    font-size: x-small ;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+}
+
